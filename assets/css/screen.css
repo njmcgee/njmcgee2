@@ -1,0 +1,288 @@
+/* -------------------------------------------------------------- 
+   
+Nathan McGinness Website by Nathan McGinness
+   
+-------------------------------------------------------------- */
+
+body {
+	margin: 0;
+	background: #f3edd2 url(../img/bg.jpg) repeat top left;
+}
+
+/* -------------------------------------------------------------- 
+
+Typography
+
+-------------------------------------------------------------- */	
+
+h2 {
+	text-indent: -3000px;
+	margin: 0;
+	font-size: 1em;
+	height: 13px;
+	margin: 24px 0;
+}
+
+h2.skills {
+	background: url(../img/h2-skills.gif) no-repeat top left;
+}
+
+h2.contact {
+	background: url(../img/h2-contact.gif) no-repeat top left;
+}
+
+h2.portfolio {
+	background: url(../img/h2-portfolio.gif) no-repeat top left;
+}
+
+h2.testimonials {
+	background: url(../img/h2-testimonials.gif) no-repeat top left;
+}
+
+h3 {
+	font-size: 1em;
+	font-weight: normal;
+	color: #b53b30;
+	margin-bottom:18px;
+	line-height: 1.2em;
+}
+
+h4 {
+	margin: 0;
+	font-size: .8em;
+	font-weight: bold;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	margin-bottom: 6px;
+	color: #554343;
+	line-height: 1.3em;
+	}
+
+p.testimonial {
+	margin-left: 10px;
+	font-size: .9em;
+	font-family: Georgia, sans-serif;
+}
+/* -------------------------------------------------------------- 
+   
+Header
+   
+-------------------------------------------------------------- */
+
+#header {
+	border-bottom: #fcfaf0 1px solid;
+}
+
+#header h1 {
+	text-indent: -1000px;
+}
+
+	#header h1 a {
+		display: block;
+		width: 296px;
+		height: 32px;
+		background: url(../img/h1.gif) no-repeat top;
+		margin: 41px 0 0 0;
+		outline: none;
+	}
+	
+		#header h1 a:hover {
+			background-position: 0px -32px;
+		}
+		
+#header h2 {
+	text-indent: -3000px;
+	display: block;
+	width: 473px;
+	height: 14px;
+	background: url(../img/h2-header.gif) no-repeat top;
+	margin: 19px 0 35px 0;
+	outline: none;
+}
+
+/* -------------------------------------------------------------- 
+   
+Intro
+   
+-------------------------------------------------------------- */
+
+#intro {
+	padding: 29px 0 11px 0;
+	/*border-bottom: #fcfaf0 1px solid;*/
+}
+
+#intro img {
+	float: left;
+	margin: 0 23px 0 14px;
+}
+
+.intro {
+	border-bottom: #fcfaf0 1px solid;
+	display: block;
+}
+
+hr.no-marg {
+	margin-bottom: 0;
+}
+
+/* -------------------------------------------------------------- 
+   
+Sidebar / Nav
+   
+-------------------------------------------------------------- */
+
+#sidebar ul.nav {
+	list-style: none;
+	margin: 0;
+}
+
+	#sidebar ul.nav li a {
+		display: block;
+		/*height: 55px;*/
+		height: 61px;
+		text-indent: -3000px;
+		outline: none;
+		border-bottom: #fcfaf0 1px solid;
+	}
+	
+	#sidebar ul.nav li a.home {
+		background: url(../img/h2-home.gif) no-repeat top left;
+	}
+	
+	#sidebar ul.nav li a.things {
+		background: url(../img/h2-things.gif) no-repeat top left;
+	}
+	
+	#sidebar ul.nav li a.finer {
+		background: url(../img/h2-finer.gif) no-repeat top left;		
+	}
+	
+	body.index #sidebar ul.nav li a.finer {
+		border-bottom: none;
+	}
+	
+	#sidebar ul.nav li a:hover,
+	#sidebar ul.nav li a.selected {
+		background-position: 0 -57px;
+	}
+
+/* -------------------------------------------------------------- 
+
+Footer
+
+-------------------------------------------------------------- */
+
+#footer {
+	border-top: #fcfaf0 1px solid;
+	margin-top: 30px;
+}
+
+body.index #footer {
+	margin-top: 0;
+}
+
+#footer ul.nav {
+	list-style: none;
+	clear: both;
+	overflow: hidden;
+	margin: 18px 0 0 0;
+	padding-bottom: 18px;
+	border-bottom: #fcfaf0 1px solid;
+	width: 606px;
+}
+
+#footer ul.nav li {
+	float: left;
+	margin-right: 10px;
+
+}
+
+#footer ul.nav li.title {
+	height: 16px;
+	width: 116px;	
+	background: url(../img/footer-logo.gif) top left no-repeat;	
+	text-indent: -3000px;
+}
+
+#footer ul.nav li a {
+	height: 16px;
+	display: block;
+	outline: none;	
+	text-indent: -3000px;
+}
+
+#footer ul.nav li a.home {
+	background: url(../img/footer-home.gif) top left no-repeat;
+	width: 108px;
+}
+
+#footer ul.nav li a.things {
+	background: url(../img/footer-things.gif) top left no-repeat;
+	width: 232px;
+}
+
+#footer ul.nav li a.finer {
+	background: url(../img/footer-finer.gif) top left no-repeat;
+	width: 110px;
+}
+
+#footer ul.nav li a:hover,
+#footer ul.nav li a.selected {
+	background-position: 0 -16px;
+}
+
+/* -------------------------------------------------------------- 
+
+Portfolio
+
+-------------------------------------------------------------- */
+
+img.left {
+	float: left;
+	margin: 0 20px 60px 0;
+	border: #e0c2ad 3px solid;
+}
+
+.portfolio-item {
+	clear: both;
+}
+
+span.attribution,
+p.attribution {
+	font-size: .85em;
+	font-style: italic;
+}
+
+/* -------------------------------------------------------------- 
+
+Things & Finer
+
+-------------------------------------------------------------- */
+
+body.finer .images,
+body.finer #content,
+body.things #content,
+body.things .images {
+	padding: 24px 0 11px 0;
+}
+
+body.things .images img,
+body.finer .images img {
+	margin-bottom: 20px;
+}
+
+
+body.finer #content,
+body.things #content {
+	width: 530px;
+}
+
+body.finer .span-2,
+body.things .span-2 {
+	margin-right: 30px;
+}
+
+body.index #content {
+	padding-right: 10px;
+	width: 690px;
+}
