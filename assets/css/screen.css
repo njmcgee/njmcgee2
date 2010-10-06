@@ -40,8 +40,8 @@ h2.testimonials {
 }
 
 h3 {
-	font-size: 1em;
-	font-weight: normal;
+	font-size: 1.14em;
+	font-weight: bold;
 	color: #b53b30;
 	margin-bottom:18px;
 	line-height: 1.2em;
@@ -113,7 +113,7 @@ Intro
 
 #intro img {
 	float: left;
-	margin: 0 23px 0 14px;
+	margin: 3px 23px 0 14px;
 }
 
 .intro {
@@ -123,6 +123,12 @@ Intro
 
 hr.no-marg {
 	margin-bottom: 0;
+}
+
+#intro p {
+	font-size: 1.14em;
+	margin-bottom: 13px;
+
 }
 
 /* -------------------------------------------------------------- 
