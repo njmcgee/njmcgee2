@@ -43,33 +43,36 @@
 					<img src="{$workspace}/images/main-image.gif" />
 					<div class="text">
 						<div class="text-box">
-							<p>Greenwich Baths is located on the corner of Albert and O’Connell St in the Suburb of Greenwich on the North Shore of Sydney (see the location on Google Maps). Ferries are available from Circular Quay and many other places.</p>
+							<p>Greenwich Baths is located on the corner of Albert and O’Connell St in the Suburb of Greenwich on the North Shore of Sydney (<a href="http://bit.ly/bqA9Zd">see the location on Google Maps</a>). <a href="http://www.sydneyferries.info/uploads/library/timetables/SFC117-Balmain-TT-January2010-REVISED-v2-WEB-VERSION.pdf">Ferries are available</a> from Circular Quay to Greenwich Point.</p>
 						</div>
 						<div class="text-box">
-							<p>Greenwich Baths is located on the corner of Albert and O’Connell St in the Suburb of Greenwich on the North Shore of Sydney (see the location on Google Maps). Ferries are available from Circular Quay and many other places.</p>
+							<p>After the ceremony we&#x27;ll have drinks, light snacks and celebrate at the baths. Dress in your finest summer cocktail outfit, and we'll dance the night away. Call Nathan <small>(0404 430 719)</small> or Alinta <small>(0421 726 320)</small> if you have any questions.</p>
 						</div>
 						<div class="text-box last">
-							<p>Greenwich Baths is located on the corner of Albert and O’Connell St in the Suburb of Greenwich on the North Shore of Sydney (see the location on Google Maps). Ferries are available from Circular Quay and many other places.</p>
+							<p>If and how you choose to gift is up to you. Some family are buying Amazon gift cards to help us set-up house in San Francisco. <a href="#">You can attach gift vouchers to Nathan's email.</a><br/> <small>(nathanmcginness@gmail.com)</small></p>
 						</div>
 					</div>
 					<div class="yes-no">
 						<a href="#" id="yes">Yes, I&#x27;m coming</a>
 						<a href="#" id="no">No I can't make it</a>
 					</div>
-					<form id="coming">
-						<input id="name" type="text" value="Full name"/>
-						<a href="#" id="add">I'm bringing someone else</a>
+					<form id="coming" method="post" action="" enctype="multipart/form-data">
+						<label for="name">Names of people coming</label>
+						<textarea name="fields[names]"></textarea>
 						<div class="field-wrapper">
-							<input type="checkbox" name="taxi" value="yes"/><span>I'm happy to pay $10 per head for a water taxi to Circular Quay at the end of the night.</span>
+							<input type="checkbox" name="fields[taxi]" value="yes"/><span>Happy to pay $10 per head for a water taxi to Circular Quay at the end of the night.</span>
 						</div>
 						<div class="field-wrapper">
-							<input type="checkbox" name="taxi" value="yes"/><span>I'm happy to pay $10 per head for a bus through North Sydney and Chatswood at the end of the night.</span>
+							<input type="checkbox" name="fields[bus]" value="yes"/><span>Happy to pay $10 per head for a bus through North Sydney to Chatswood at the end of the night.</span>
 						</div>
-						<input type="submit" value="See you at the wedding" />
+						<input name="action[save-attendee]" type="submit" value="See you at the wedding" />
 					</form>
-					<form id="not-coming">
-						<input id="name" type="text" value="Full name"/>
-						<input type="submit" value="See you in San Francisco" />
+					<form method="post" action="" enctype="multipart/form-data" id="not-coming">
+					  <input name="MAX_FILE_SIZE" type="hidden" value="5242880" />
+					  <label>Names of people not attending</label>
+					    <textarea name="fields[names]"></textarea>
+					  
+					  	<input name="action[save-non-attendee]" type="submit" value="See you in San Francisco" />
 					</form>
 			    </div>
 
@@ -89,13 +92,13 @@
 
 
 			<!--[if lt IE 7 ]>
-			  <script src="js/libs/dd_belatedpng.js"></script>
+			  <script src="{$workspace}/js/libs/dd_belatedpng.js"></script>
 			  <script> DD_belatedPNG.fix('img, .png_bg'); </script>
 			<![endif]-->
 
 			<!-- yui profiler and profileviewer - remove for production -->
-			<script src="js/profiling/yahoo-profiling.min.js"></script>
-			<script src="js/profiling/config.js"></script>
+			<script src="{$workspace}/js/profiling/yahoo-profiling.min.js"></script>
+			<script src="{$workspace}/js/profiling/config.js"></script>
 			<!-- end profiling code -->
 			<!-- End Javascript Links -->
 		</body>

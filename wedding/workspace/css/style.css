@@ -194,7 +194,21 @@ input[type=submit] {
 	-webkit-border-radius: 5px;
 	-moz-border-radius: 5px;
 	border-radius: 5px;
+	padding: 10px 15px;
+}
+input[type=submit]:hover {
+	background: #f09;
+}
+textarea {
+	width: 96%;
+	margin-bottom: 20px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
 	padding: 5px;
+}
+form#not-coming textarea {
+	margin-bottom: 10px;
 }
 
 
