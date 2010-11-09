@@ -5,7 +5,7 @@ Options +FollowSymlinks -Indexes
 <IfModule mod_rewrite.c>
 
 	RewriteEngine on
-	RewriteBase /njmcgee/wedding/
+	RewriteBase /wedding/
 
 	### DO NOT APPLY RULES WHEN REQUESTING "favicon.ico"
 	RewriteCond %{REQUEST_FILENAME} favicon.ico [NC]
