@@ -1,0 +1,31 @@
+============================================
+Log Created: 2010-11-09T20:55:36+11:00
+============================================
+Symphony Installer Log
+Opened: 2010-11-09T20:55:36+11:00
+Version: 2.1.2
+Domain: http://localhost:8888/njmcgee/wedding
+--------------------------------------------
+2010/11/09 20:56:28 > NOTICE: Configuration - Database table prefix clash with 'wedding'
+
+============================================
+INSTALLATION PROCESS STARTED (2010-11-09T20:57:34+11:00)
+============================================
+2010/11/09 20:57:34 > NOTICE: MYSQL: Establishing Connection...Done
+2010/11/09 20:57:34 > NOTICE: MYSQL: Selecting Database 'wedding'...Done
+2010/11/09 20:57:34 > NOTICE: MYSQL: Importing Table Schema...Done
+2010/11/09 20:57:35 > NOTICE: MYSQL: Creating Default Author...Done
+2010/11/09 20:57:35 > NOTICE: WRITING: Creating 'manifest' folder (/manifest)
+2010/11/09 20:57:35 > NOTICE: WRITING: Creating 'logs' folder (/manifest/logs)
+2010/11/09 20:57:35 > NOTICE: WRITING: Creating 'cache' folder (/manifest/cache)
+2010/11/09 20:57:35 > NOTICE: WRITING: Creating 'tmp' folder (/manifest/tmp)
+2010/11/09 20:57:35 > NOTICE: WRITING: Configuration File
+2010/11/09 20:57:35 > NOTICE: CONFIGURING: Frontend
+2010/11/09 20:57:35 > NOTICE: MYSQL: Importing Workspace Data...Done
+2010/11/09 20:57:35 > NOTICE: Installation Process Completed In 1 sec
+============================================
+INSTALLATION COMPLETED: Execution Time - 1 sec (09.11.10 20:57:35)
+============================================
+
+
+
