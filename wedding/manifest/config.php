@@ -55,7 +55,7 @@
 			'query_caching' => 'default',
 			'host' => 'mysql.njmcgee.com',
 			'port' => '3306',
-			'user' => 'nathan_db',
+			'user' => 'njmcgee_db',
 			'password' => 'brisk!!!',
 			'db' => 'nathan_alinta_wedding',
 			'tbl_prefix' => 'sym_',
