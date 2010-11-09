@@ -52,7 +52,7 @@
 							<p>Greenwich Baths is located on the corner of Albert and O’Connell St in the Suburb of Greenwich on the North Shore of Sydney (<a href="http://bit.ly/bqA9Zd">see the location on Google Maps</a>). <a href="http://www.sydneyferries.info/uploads/library/timetables/SFC117-Balmain-TT-January2010-REVISED-v2-WEB-VERSION.pdf">Ferries are available</a> from Circular Quay to Greenwich Point.</p>
 						</div>
 						<div class="text-box">
-							<p>After the ceremony we&#x27;ll have drinks, light snacks and celebrate at the baths. Dress in your finest summer cocktail outfit, and we'll dance the night away. Call Nathan <small>(0404 430 719)</small> or Alinta <small>(0421 726 320)</small> if you have any questions. Please RSVP below as soon as possible.</p>
+							<p>After the ceremony we&#x27;ll have drinks, light snacks and celebrate at the baths. Dress in your finest summer cocktail outfit, and we'll dance the night away. Call Nathan <small>(0404 430 719)</small> or Alinta <small>(0421 726 320)</small> if you have any questions. Please RSVP below ASAP.</p>
 						</div>
 						<div class="text-box last">
 							<p>If and how you choose to gift is up to you. Some family are buying Amazon gift cards to help us set-up house in San Francisco. <a href="http://amzn.to/cilPts">You can attach gift vouchers to Nathan's email.</a><br/> <small>(nathanmcginness@gmail.com)</small></p>
