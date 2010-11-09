@@ -35,11 +35,17 @@
 		<body id="{$current-page}-page">
 			<!-- Start Container -->
 			<div id="container">
+				<xsl:if test="$current-path = '/?success'">
+					<h1>Thankyou for your RSVP</h1>
+					
+				</xsl:if>
 				<header>
 
 			    </header>
 				<!-- Start Header -->
 				<div id="main">
+
+					
 					<img src="{$workspace}/images/main-image.gif" />
 					<div class="text">
 						<div class="text-box">
@@ -57,7 +63,7 @@
 						<a href="#" id="no">No I can't make it</a>
 					</div>
 					<form id="coming" method="post" action="" enctype="multipart/form-data">
-						<label for="name">Names of people coming</label>
+						<label for="name">Names of people attending</label>
 						<textarea name="fields[names]"></textarea>
 						<div class="field-wrapper">
 							<input type="checkbox" name="fields[taxi]" value="yes"/><span>Happy to pay $10 per head for a water taxi to Circular Quay at the end of the night.</span>
@@ -66,6 +72,7 @@
 							<input type="checkbox" name="fields[bus]" value="yes"/><span>Happy to pay $10 per head for a bus through North Sydney to Chatswood at the end of the night.</span>
 						</div>
 						<input name="action[save-attendee]" type="submit" value="See you at the wedding" />
+						<input name="redirect" type="hidden" value="{$root}/?success" />
 					</form>
 					<form method="post" action="" enctype="multipart/form-data" id="not-coming">
 					  <input name="MAX_FILE_SIZE" type="hidden" value="5242880" />
@@ -73,6 +80,7 @@
 					    <textarea name="fields[names]"></textarea>
 					  
 					  	<input name="action[save-non-attendee]" type="submit" value="See you in San Francisco" />
+						<input name="redirect" type="hidden" value="{$root}/?success" />
 					</form>
 			    </div>
 
