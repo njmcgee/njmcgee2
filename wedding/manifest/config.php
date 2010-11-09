@@ -54,7 +54,7 @@
 			'runtime_character_set_alter' => '1',
 			'query_caching' => 'default',
 			'host' => 'localhost',
-			'port' => '8888',
+			'port' => '3306',
 			'user' => 'njmcgee_db',
 			'password' => 'brisk!!!',
 			'db' => 'njmcgee_wedding',
