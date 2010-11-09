@@ -52,7 +52,7 @@
 							<p>Greenwich Baths is located on the corner of Albert and O’Connell St in the Suburb of Greenwich on the North Shore of Sydney (<a href="http://bit.ly/bqA9Zd">see the location on Google Maps</a>). <a href="http://www.sydneyferries.info/uploads/library/timetables/SFC117-Balmain-TT-January2010-REVISED-v2-WEB-VERSION.pdf">Ferries are available</a> from Circular Quay to Greenwich Point.</p>
 						</div>
 						<div class="text-box">
-							<p>After the ceremony we&#x27;ll have drinks, light snacks and celebrate at the baths. Dress in your finest summer cocktail outfit, and we'll dance the night away. Call Nathan <small>(0404 430 719)</small> or Alinta <small>(0421 726 320)</small> if you have any questions.</p>
+							<p>After the ceremony we&#x27;ll have drinks, light snacks and celebrate at the baths. Dress in your finest summer cocktail outfit, and we'll dance the night away. Call Nathan <small>(0404 430 719)</small> or Alinta <small>(0421 726 320)</small> if you have any questions. Please RSVP below as soon as possible.</p>
 						</div>
 						<div class="text-box last">
 							<p>If and how you choose to gift is up to you. Some family are buying Amazon gift cards to help us set-up house in San Francisco. <a href="http://amzn.to/cilPts">You can attach gift vouchers to Nathan's email.</a><br/> <small>(nathanmcginness@gmail.com)</small></p>
@@ -69,9 +69,9 @@
 							<input type="checkbox" name="fields[taxi]" value="yes"/><span>Happy to pay $10 per head for a water taxi to Circular Quay at the end of the night.</span>
 						</div>
 						<div class="field-wrapper">
-							<input type="checkbox" name="fields[bus]" value="yes"/><span>Happy to pay $10 per head for a bus through North Sydney to Chatswood at the end of the night.</span>
+							<input type="checkbox" name="fields[bus]" value="yes"/><span>Happy to pay $10 per head for a bus to North Sydney hotels.</span>
 						</div>
-						<input name="action[save-attendee]" type="submit" value="See you at the wedding" />
+						<input name="action[save-attendee]" type="submit" value="Send your RSVP" />
 						<input name="redirect" type="hidden" value="{$root}/?success" />
 					</form>
 					<form method="post" action="" enctype="multipart/form-data" id="not-coming">
@@ -79,7 +79,7 @@
 					  <label>Names of people not attending</label>
 					    <textarea name="fields[names]"></textarea>
 					  
-					  	<input name="action[save-non-attendee]" type="submit" value="See you in San Francisco" />
+					  	<input name="action[save-non-attendee]" type="submit" value="Send your RSVP" />
 						<input name="redirect" type="hidden" value="{$root}/?success" />
 					</form>
 			    </div>
