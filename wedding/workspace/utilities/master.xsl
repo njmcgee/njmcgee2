@@ -55,7 +55,7 @@
 							<p>After the ceremony we&#x27;ll have drinks, light snacks and celebrate at the baths. Dress in your finest summer cocktail outfit, and we'll dance the night away. Call Nathan <small>(0404 430 719)</small> or Alinta <small>(0421 726 320)</small> if you have any questions.</p>
 						</div>
 						<div class="text-box last">
-							<p>If and how you choose to gift is up to you. Some family are buying Amazon gift cards to help us set-up house in San Francisco. <a href="https://www.amazon.com/gp/gc/order-email?ie=UTF8&ref_=gc_lp_4ways_email">You can attach gift vouchers to Nathan's email.</a><br/> <small>(nathanmcginness@gmail.com)</small></p>
+							<p>If and how you choose to gift is up to you. Some family are buying Amazon gift cards to help us set-up house in San Francisco. <a href="http://amzn.to/cilPts">You can attach gift vouchers to Nathan's email.</a><br/> <small>(nathanmcginness@gmail.com)</small></p>
 						</div>
 					</div>
 					<div class="yes-no">
