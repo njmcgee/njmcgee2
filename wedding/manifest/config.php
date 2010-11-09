@@ -55,9 +55,9 @@
 			'query_caching' => 'default',
 			'host' => 'localhost',
 			'port' => '8888',
-			'user' => 'root',
-			'password' => 'root',
-			'db' => 'wedding',
+			'user' => 'njmcgee_db',
+			'password' => 'brisk!!!',
+			'db' => 'njmcgee_wedding',
 			'tbl_prefix' => 'sym_',
 		),
 		########
