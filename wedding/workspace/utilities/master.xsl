@@ -66,10 +66,10 @@
 						<label for="name">Names of people attending</label>
 						<textarea name="fields[names]"></textarea>
 						<div class="field-wrapper">
-							<input type="checkbox" name="fields[taxi]" value="yes"/><span>Happy to pay $10 per head for a water taxi to Circular Quay at the end of the night.</span>
+							<input type="checkbox" name="fields[taxi]" value="yes"/><span>I'm heading back across the harbour and will pay $10 per head for a water taxi to Circular Quay at the end of the night.</span>
 						</div>
 						<div class="field-wrapper">
-							<input type="checkbox" name="fields[bus]" value="yes"/><span>Happy to pay $10 per head for a bus through North Sydney to Chatswood at the end of the night.</span>
+							<input type="checkbox" name="fields[bus]" value="yes"/><span>I'm staying in a North Sydney hotel and will pay $10 per head for a bus through North Sydney to Chatswood at the end of the night.</span>
 						</div>
 						<input name="action[save-attendee]" type="submit" value="See you at the wedding" />
 						<input name="redirect" type="hidden" value="{$root}/?success" />
