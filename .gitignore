@@ -1,3 +1,4 @@
 files/
 wedding/manifest/
-.htaccess
+wedding/.htaccess
+.DS_Store
